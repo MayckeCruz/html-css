@@ -1,0 +1,25 @@
+body {
+    background-color: #1d1d1d;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #dddddd;
+    font-size: large;
+}
+
+#menu-image {
+    width: 230px;
+}
+
+iframe {
+    width: 560px;
+    height: 315px;
+}
+
+a { 
+    color: inherit; 
+    text-decoration: none;
+} 
+
+a:hover {
+    text-decoration: underline;
+}
