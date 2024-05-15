@@ -8,15 +8,20 @@
     --cor2: #000000;
     --cor3: rgba(0, 0, 0, 0.510);
 
-    --font-header: "Passion One", sans-serif;
+    --font-header: "Passion One", cursive;
     --font-p: "Sriracha", cursive;
-    --font-autor: Verdana;
+    --font-autor: Verdana, sans-serif;
 }
 
 * {
     margin: 0px;
     padding: 0px;
     font-size: 1em;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: var(--cor2);
 }
 
 header {
@@ -45,6 +50,7 @@ section {
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
+    background-color: var(--cor1);
 }
 
 .image {
@@ -80,7 +86,7 @@ footer {
 
 a {
     color: var(--cor1);
-    font-weight: bold;
+    font-weight: bolder;
     text-decoration: none;
 }
 
