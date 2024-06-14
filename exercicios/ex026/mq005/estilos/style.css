@@ -36,7 +36,6 @@ span#burguer:hover {
 menu {
     background-color: #9A9A98;
     display: none;
-    animation-duration: 5s;
 }
 
 menu > ul {
